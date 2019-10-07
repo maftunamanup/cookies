@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+            @media only screen and (min-width: 100px) and (max-width: 300px) {
+            .divclass {
+                font-size: 16px;
+                margin: auto;
+                padding-top: 5px;
+                padding-right: 5px;
+                padding-bottom: 5px;
+                padding-left: 5px;
+            }
+            .buttonclass {
+                font-size: 16px;
+                margin: auto;
+                padding-top: 2px;
+                padding-right: 3px;
+                padding-bottom: 2px;
+                padding-left: 3px;
+                width: 150px;
+                height: 40px;
+                display: inline-block;
+            }
+        }
+        
+        @media only screen and (min-width: 300px) and (max-width: 500px) {
+            .divclass {
+                font-size: 16px;
+                margin: auto;
+                padding-top: 2px;
+                padding-right: 2px;
+                padding-bottom: 2px;
+                padding-left: 2px;
+            }
+            .buttonclass {
+                font-size: 16px;
+                margin: auto;
+                padding-top: 2px;
+                padding-right: 3px;
+                padding-bottom: 2px;
+                padding-left: 3px;
+                width: 150px;
+                height: 50px;
+                display: inline-block;
+            }
+        }
+        
+        @media only screen and (min-width: 500px) and (max-width: 800px) {
+            .divclass {
+                font-size: 18px;
+                margin: auto;
+                padding-top: 4px;
+                padding-right: 4px;
+                padding-bottom: 3px;
+                padding-left: 3px;
+            }
+            .buttonclass {
+                font-size: 18px;
+                margin: auto;
+                padding-top: 2px;
+                padding-right: 3px;
+                padding-bottom: 2px;
+                padding-left: 3px;
+                width: 150px;
+                height: 60px;
+                display: inline-block;
+            }
+        }
+        
+        @media only screen and (min-width: 800px) and (max-width: 1100px) {
+            .divclass {
+                font-size: 18px;
+                margin: auto;
+                padding-top: 5px;
+                padding-right: 5px;
+                padding-bottom: 5px;
+                padding-left: 5px;
+            }
+            .buttonclass {
+                font-size: 18px;
+                margin: auto;
+                padding-top: 5px;
+                padding-right: 5px;
+                padding-bottom: 5px;
+                padding-left: 5px;
+                width: 150px;
+                height: 60px;
+                display: inline-block;
+            }
+            @media only screen and (min-width: 1100px) and (max-width: 1400px) {
+                .divclass {
+                    font-size: 19px;
+                    margin: auto;
+                    padding-top: 10px;
+                    padding-right: 5px;
+                    padding-bottom: 5px;
+                    padding-left: 5px;
+                }
+                .buttonclass {
+                    font-size: 19px;
+                    margin: auto;
+                    padding-top: 2px;
+                    padding-right: 3px;
+                    padding-bottom: 2px;
+                    padding-left: 3px;
+                    width: 150px;
+                    height: 100px;
+                    display: inline-block;
+                }
+            }
+            @media only screen and (min-width: 1400px) and (max-width: 1700px) {
+                .divclass {
+                    font-size: 19px;
+                    margin: auto;
+                    padding-top: 5px;
+                    padding-right: 5px;
+                    padding-bottom: 5px;
+                    padding-left: 5px;
+                }
+                .buttonclass {
+                    font-size: 19px;
+                    margin: auto;
+                    padding-top: 2px;
+                    padding-right: 3px;
+                    padding-bottom: 2px;
+                    padding-left: 3px;
+                    width: 150px;
+                    height: 130px;
+                    display: inline-block;
+                }
+            }
+    </style>
+</head>
+
+<body>
+    <div id="mainFrameOne" style="bottom: 0px; top: auto; display: block; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;
+margin-left: 0px; text-align: center; line-height: 1; font-size: 16px; color: #FFFFFF; display: flex;   position: fixed; right: 0;
+left: 0; width: 100%; background-color: rgba(0,0,0,.75); z-index: 999;">
+        <script>
+            function myFunction() {
+                document.getElementById("mainFrameOne").style.display = "none";
+            }
+        </script>
+        <div class="divclass" style=" display: flex;  font-family: Georgia, " Times New Roman ", Times, serif; color: #333333; font-size: 100%;">
+            <p style="display: block; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; margin-bottom: 15px; padding-bottom: 5px; margin-left: 15px; text-align: left; margin-top: 30px;">We use cookies on our website so we can show you the most relevant content and ads, and keep improving our site. By continuing to browse our site you agree to this use. See our
+                <a style="color: #00B2D8; outline-color: initial; outline-style: none; outline-width: initial; text-decoration-line: none; 
+text-decoration-style: initial; text-decoration-color: initial;" href="#"> Privacy and Cookie </a> policy.
+                <span> 
+<a style="outline-color: initial; outline-style: none; outline-width: initial; text-decoration-line: none; text-decoration-style: initial;
+text-decoration-color: initial;" href ></a>
+</span>
+            </p>
+            <div style=" display: flex; margin-right: 60px;
+margin-left: 20px;                                
+margin-top: 15px;                               
+margin-bottom: 15px;    ">
+                <button class="buttonclass" onclick="myFunction()" style="  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+margin-right: 20px;
+margin-left: 20px;                                
+margin-top: 10px;                               
+
+  cursor: pointer; background: #00B2D8;
+  margin: auto;
+
+  ">ACCEPT COOKIES</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
